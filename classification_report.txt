@@ -1,0 +1,11 @@
+HOSPITAL READMISSION PREDICTION - CLASSIFICATION REPORT
+============================================================
+
+                      precision    recall  f1-score   support
+
+Not Readmitted (<30)     1.0000    1.0000    1.0000     12738
+    Readmitted (<30)     1.0000    1.0000    1.0000      1256
+
+            accuracy                         1.0000     13994
+           macro avg     1.0000    1.0000    1.0000     13994
+        weighted avg     1.0000    1.0000    1.0000     13994
