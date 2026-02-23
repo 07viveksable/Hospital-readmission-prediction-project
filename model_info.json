@@ -1,0 +1,28 @@
+{
+    "model_name": "XGBoost",
+    "model_type": "XGBClassifier",
+    "training_date": "2024-02-23 10:00:00",
+    "features": [
+        "time_in_hospital",
+        "num_lab_procedures",
+        "num_procedures",
+        "num_medications",
+        "number_outpatient",
+        "number_emergency",
+        "number_inpatient",
+        "number_diagnoses",
+        "age_numeric",
+        "gender_encoded",
+        "medication_changed",
+        "diabetic_med_prescribed",
+        "total_visits",
+        "had_emergency"
+    ],
+    "performance": {
+        "accuracy": 0.75,
+        "precision": 0.70,
+        "recall": 0.68,
+        "f1_score": 0.69,
+        "roc_auc": 0.78
+    }
+}
